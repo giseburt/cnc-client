@@ -2,12 +2,12 @@
 var app = require('electron').app
 var BrowserWindow = require('electron').BrowserWindow
 
-// Handle Windows installer/update  (Squirrel) commands
-if(require('electron-squirrel-startup')) return;
-
 let mainWindow;
 
 function createWindow () {
+  // Handle Windows installer/update  (Squirrel) commands
+  if(require('electron-squirrel-startup')) return;
+
   mainWindow = new BrowserWindow({width: 380, height: 430, x: 10, y:10});
   mainWindow.loadURL('file://' + __dirname + '/index.html');
 
