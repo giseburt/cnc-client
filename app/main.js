@@ -1,7 +1,6 @@
 'use strict';
-var app = require('app');
-var BrowserWindow = require('browser-window');
-
+var app = require('electron').app
+var BrowserWindow = require('electron').BrowserWindow
 
 let mainWindow;
 
@@ -10,7 +9,7 @@ function createWindow () {
   mainWindow.loadURL('file://' + __dirname + '/index.html');
 
   // Open the DevTools.
-//  mainWindow.webContents.openDevTools();
+  mainWindow.webContents.openDevTools();
 
   mainWindow.on('closed', function() {
     mainWindow = null;
