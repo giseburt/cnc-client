@@ -1,5 +1,6 @@
 {
   "name": "cnc-client",
+  "private": true,
   "version": "0.0.2",
   "description": "PrintrBot.com CNC driving app",
   "main": "index.js",
@@ -27,6 +28,8 @@
   },
   "homepage": "https://github.com/printrbot/cnc-client#readme",
   "build": {
+    "productName": "pbCNC",
+    "files": ["**\/*"],
     "appId": "com.printrbot.pbCNC",
     "dmg": {
       "contents": [

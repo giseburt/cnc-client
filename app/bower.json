@@ -1,5 +1,6 @@
 {
   "name": "cnc-app",
+  "private": true,
   "description": "printrbot cnc app",
   "main": "main.js",
   "authors": [
@@ -20,6 +21,8 @@
   "dependencies": {
     "font-awesome": "fontawesome#^4.6.1",
     "bootstrap": "^3.3.6",
-    "requirejs": "requirejs-bower#^2.2.0"
+    "requirejs": "requirejs-bower#^2.2.0",
+    "underscore": "^1.8.3",
+    "backbone": "^1.3.3"
   }
 }

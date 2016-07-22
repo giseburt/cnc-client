@@ -1,4 +1,4 @@
-var remote = require('remote');
+var remote = require('electron').remote;
 
 define([
   'app',

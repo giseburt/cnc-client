@@ -1,5 +1,5 @@
 var fs = require('fs');
-var lbl = require('line-by-line');
+// var lbl = require('line-by-line');
 
 define([
   'app',
