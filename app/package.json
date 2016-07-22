@@ -5,14 +5,14 @@
   "description": "printrbot cnc app",
   "main": "main.js",
   "scripts": {
-      "postinstall" : "bower install"
+    "postinstall": "bower install"
   },
   "author": "mick",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
+    "bower": "^1.7.9",
+    "electron-squirrel-startup": "^1.0.0",
     "jquery": "^2.2.1",
-    "tinyg": "git+https://github.com/giseburt/TinyG-node.git",
-    "bower": "^1.7.9"
+    "tinyg": "git+https://github.com/giseburt/TinyG-node.git"
   }
 }
