@@ -6,9 +6,9 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "install-app-deps",
-    "pack": "build --dir --build-from-source",
-    "dist": "build --build-from-source",
-    "dist-win32": "build --ia32 --build-from-source"
+    "pack": "build --dir",
+    "dist": "build",
+    "dist-win32": "build --ia32"
   },
   "repository": {
     "type": "git",
